@@ -10,9 +10,13 @@ h3:first-child {
     color: pink;
 }
 
-.text-box div p {
+div p:nth-child(1) {
     color: red;
 }
+
+/* .text-box div p {
+    color: red;
+} */
 
 
 p:nth-child(odd) {
